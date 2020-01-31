@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="com.unmapp.profil">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="145dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/logouneng"
+                android:orientation="vertical">
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/profilunm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-100dp"
+                    android:src="@drawable/phinisi" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="-85dp"
+                    android:text="Visi"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="UNM sebagai pusat pendidikan, pengkajian, dan pengembangan ilmu pengetahuan, sains, teknologi, dan seni berwawasan kependidikan dan kewirausahaan."
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Misi"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="- Menyelenggarakan kegiatan Tridharma untuk menghasilkan sumber daya manusia profesional dalam bidang kependidikan dan nonkependidkan yang berwawasan kewirausahaan."
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="- Menciptakan iklim dan budaya akademik yang kondusif sesuai dengan prinsip tata kelola yang baik ( good university governance)."
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="- Mengembangkan UNM menjadi universitas penelitian dan pengajaran (teaching and research university) yang dapat memenuhi kebutuhan pembangunan bangsa."
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="- Memberikan layanan kepada masyarakat untuk peningkatan kualitas hidup masyarakat, bangsa, dan negara."
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="- Mengembangkan jejaring dengan pemerintah, swasta, dan/atau/institusi/lembaga/badan lain pada tingkat nasional da internasional. "
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sejarah"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Didirikan pada 1 Agustus 1961 sampai dengan 31 Agustus 1964, berstatus Fakultas Keguruan dan Ilmu Pendidikan Universitas Hasanuddin, berdasarkan SK Menteri PTIP No. 30 Tahun 1964 Tanggal 1 Agustus 1961. pada 1 September 1964 sampai dengan Januari 1965 berstatus IKIP Yogyakarta cabang Makassar, berdasarkan SK Menteri PTIP No. 154 Tahun 1965 Tanggal 1 September 1965. serta pada 5 Januari sampai dengan 3 Agustus 1999, berstatus mandiri dengan nama IKIP Makassar, berdasarkan SK Presiden Republik Indonesia No. 272 Tahun 1965 tanggal 5 Januari 1965. Pada fase ini, sejak 1 April 1972, IKIP Makassar berubah menjadi IKIP Ujungpandang dengan mengikuti perubahan nama Kotamadya Makassar menjadi Kotamadya Ujungpandang. dan pada 4 Agustus 1999 sampai sekarang berstatus Universitas dengan nama Universitas Negeri Makassar (UNM) berdasarkan SK Presiden Republik Indonesia No. 93 Tahun 1999 tanggal 4 Agustus 1999. Sampai pertengahan tahun 2011, jumlah prodi D3 9 sebanyak prodi S1 sebanyak 58, prodi S2 sebanyak 12 sebanyak dan prodi S3 sebanyak 5."
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

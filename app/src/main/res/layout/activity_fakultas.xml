@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unmapp.Fakultas"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/logouneng"
+        android:orientation="vertical">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_psikologi"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:text="FAKULTAS PSIKOLOGI"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:id="@+id/button_ilmu_pendidikan"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:layout_margin="2dp"
+            android:text="FAKULTAS ILMU PENDIDIKAN" />
+
+        <Button
+            android:id="@+id/button_mipa"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:layout_margin="2dp"
+            android:text="FAKULTAS MIPA" />
+
+        <Button
+            android:id="@+id/button_teknik"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:layout_margin="2dp"
+            android:text="FAKULTAS TEKNIK" />
+
+        <Button
+            android:id="@+id/button_bastra"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:layout_margin="2dp"
+            android:text="FAKULTAS BAHASA DAN SASTRA" />
+
+        <Button
+            android:id="@+id/button_fik"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:layout_margin="2dp"
+            android:text="FAKULTAS ILMU KEOLAHRAGAAN" />
+
+        <Button
+            android:id="@+id/button_fis"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/border"
+            android:text="FAKULTAS ILMU SOSIAL" />
+
+        <Button
+            android:id="@+id/button_fsd"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:layout_margin="2dp"
+            android:text="FAKULTAS SENI DAN DESAIN" />
+
+        <Button
+            android:id="@+id/button_fe"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:layout_margin="2dp"
+            android:text="FAKULTAS EKONOMI" />
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
